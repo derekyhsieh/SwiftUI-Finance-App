@@ -11,6 +11,11 @@
 		4BA78A012838865800A753A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A002838865800A753A8 /* ContentView.swift */; };
 		4BA78A032838865900A753A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA78A022838865900A753A8 /* Assets.xcassets */; };
 		4BA78A062838865900A753A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA78A052838865900A753A8 /* Preview Assets.xcassets */; };
+		4BA78A0E283886E500A753A8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A0D283886E500A753A8 /* HeaderView.swift */; };
+		4BA78A112838883300A753A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A102838883300A753A8 /* Extensions.swift */; };
+		4BA78A13283889A500A753A8 /* PortfolioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A12283889A500A753A8 /* PortfolioCard.swift */; };
+		4BA78A152838912E00A753A8 /* StockCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A142838912E00A753A8 /* StockCard.swift */; };
+		4BA78A172838915600A753A8 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A162838915600A753A8 /* WatchlistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		4BA78A002838865800A753A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BA78A022838865900A753A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA78A052838865900A753A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BA78A0D283886E500A753A8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4BA78A102838883300A753A8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4BA78A12283889A500A753A8 /* PortfolioCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCard.swift; sourceTree = "<group>"; };
+		4BA78A142838912E00A753A8 /* StockCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCard.swift; sourceTree = "<group>"; };
+		4BA78A162838915600A753A8 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,9 @@
 		4BA789FD2838865800A753A8 /* FinanceStocks */ = {
 			isa = PBXGroup;
 			children = (
+				4BA78A0F2838882200A753A8 /* Helpers */,
+				4BA78A0C283886D300A753A8 /* Views */,
 				4BA789FE2838865800A753A8 /* FinanceStocksApp.swift */,
-				4BA78A002838865800A753A8 /* ContentView.swift */,
 				4BA78A022838865900A753A8 /* Assets.xcassets */,
 				4BA78A042838865900A753A8 /* Preview Content */,
 			);
@@ -65,6 +76,26 @@
 				4BA78A052838865900A753A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BA78A0C283886D300A753A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78A002838865800A753A8 /* ContentView.swift */,
+				4BA78A0D283886E500A753A8 /* HeaderView.swift */,
+				4BA78A12283889A500A753A8 /* PortfolioCard.swift */,
+				4BA78A142838912E00A753A8 /* StockCard.swift */,
+				4BA78A162838915600A753A8 /* WatchlistView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BA78A0F2838882200A753A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4BA78A102838883300A753A8 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA78A13283889A500A753A8 /* PortfolioCard.swift in Sources */,
 				4BA78A012838865800A753A8 /* ContentView.swift in Sources */,
+				4BA78A0E283886E500A753A8 /* HeaderView.swift in Sources */,
+				4BA78A172838915600A753A8 /* WatchlistView.swift in Sources */,
 				4BA789FF2838865800A753A8 /* FinanceStocksApp.swift in Sources */,
+				4BA78A152838912E00A753A8 /* StockCard.swift in Sources */,
+				4BA78A112838883300A753A8 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
