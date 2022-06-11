@@ -22,3 +22,20 @@ extension Color {
 
 
 
+extension Array where Element == CGFloat {
+    
+    var normalizedValues: [CGFloat] {
+        // no min or max
+        // array = [123.123]
+        
+        if let min = self.min(), let max = self.max() {
+            return self.map({($0 - min)/(max-min) })
+        }
+        
+        return []
+        
+        
+    }
+    
+}
+
