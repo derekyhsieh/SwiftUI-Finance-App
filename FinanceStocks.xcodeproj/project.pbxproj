@@ -16,6 +16,10 @@
 		4BA78A13283889A500A753A8 /* PortfolioCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A12283889A500A753A8 /* PortfolioCard.swift */; };
 		4BA78A152838912E00A753A8 /* StockCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A142838912E00A753A8 /* StockCard.swift */; };
 		4BA78A172838915600A753A8 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A162838915600A753A8 /* WatchlistView.swift */; };
+		4BB0E50F28544B7A00997313 /* StockMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E50E28544B7A00997313 /* StockMockData.swift */; };
+		4BB0E51128544BBC00997313 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E51028544BBC00997313 /* LineChart.swift */; };
+		4BB0E51328544FD700997313 /* SearchStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E51228544FD700997313 /* SearchStockView.swift */; };
+		4BB0E5152854507900997313 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0E5142854507900997313 /* StockCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		4BA78A12283889A500A753A8 /* PortfolioCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCard.swift; sourceTree = "<group>"; };
 		4BA78A142838912E00A753A8 /* StockCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCard.swift; sourceTree = "<group>"; };
 		4BA78A162838915600A753A8 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		4BB0E50E28544B7A00997313 /* StockMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMockData.swift; sourceTree = "<group>"; };
+		4BB0E51028544BBC00997313 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		4BB0E51228544FD700997313 /* SearchStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockView.swift; sourceTree = "<group>"; };
+		4BB0E5142854507900997313 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 		4BA789F22838865800A753A8 = {
 			isa = PBXGroup;
 			children = (
+				4BB0E50E28544B7A00997313 /* StockMockData.swift */,
 				4BA789FD2838865800A753A8 /* FinanceStocks */,
 				4BA789FC2838865800A753A8 /* Products */,
 			);
@@ -86,6 +95,9 @@
 				4BA78A12283889A500A753A8 /* PortfolioCard.swift */,
 				4BA78A142838912E00A753A8 /* StockCard.swift */,
 				4BA78A162838915600A753A8 /* WatchlistView.swift */,
+				4BB0E51028544BBC00997313 /* LineChart.swift */,
+				4BB0E51228544FD700997313 /* SearchStockView.swift */,
+				4BB0E5142854507900997313 /* StockCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,10 +182,14 @@
 			files = (
 				4BA78A13283889A500A753A8 /* PortfolioCard.swift in Sources */,
 				4BA78A012838865800A753A8 /* ContentView.swift in Sources */,
+				4BB0E51128544BBC00997313 /* LineChart.swift in Sources */,
 				4BA78A0E283886E500A753A8 /* HeaderView.swift in Sources */,
+				4BB0E5152854507900997313 /* StockCell.swift in Sources */,
 				4BA78A172838915600A753A8 /* WatchlistView.swift in Sources */,
+				4BB0E51328544FD700997313 /* SearchStockView.swift in Sources */,
 				4BA789FF2838865800A753A8 /* FinanceStocksApp.swift in Sources */,
 				4BA78A152838912E00A753A8 /* StockCard.swift in Sources */,
+				4BB0E50F28544B7A00997313 /* StockMockData.swift in Sources */,
 				4BA78A112838883300A753A8 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
