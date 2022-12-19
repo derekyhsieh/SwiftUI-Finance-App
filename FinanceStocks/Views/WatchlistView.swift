@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct WatchlistView: View {
+    @StateObject var stocksVM: StocksViewModel
+    
     var body: some View {
         VStack {
             HStack {
@@ -22,9 +24,10 @@ struct WatchlistView: View {
             ScrollView {
                 VStack {
                     
-                    StockCard()
-                    StockCard()
-                    StockCard()
+                    ForEach(stocksVM.stocks, id: \.self) { stock in
+                       StockCard(stockModel: stock)
+                    }
+                    
                 }
             }
             .padding(3)
@@ -33,8 +36,8 @@ struct WatchlistView: View {
     }
 }
 
-struct WatchlistView_Previews: PreviewProvider {
-    static var previews: some View {
-        WatchlistView()
-    }
-}
+//struct WatchlistView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        WatchlistView()
+//    }
+//}

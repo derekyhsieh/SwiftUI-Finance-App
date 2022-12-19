@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B0851C128BC2BF100C8E76C /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0851C028BC2BF100C8E76C /* APIRequest.swift */; };
 		4B0851C328BC2DB000C8E76C /* JSONDecoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0851C228BC2DB000C8E76C /* JSONDecoders.swift */; };
+		4B329751294FE36900FF3BCA /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B329750294FE36900FF3BCA /* StocksViewModel.swift */; };
+		4B329753294FE3AC00FF3BCA /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B329752294FE3AC00FF3BCA /* StockModel.swift */; };
 		4BA789FF2838865800A753A8 /* FinanceStocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA789FE2838865800A753A8 /* FinanceStocksApp.swift */; };
 		4BA78A012838865800A753A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA78A002838865800A753A8 /* ContentView.swift */; };
 		4BA78A032838865900A753A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA78A022838865900A753A8 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		4B0851C028BC2BF100C8E76C /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		4B0851C228BC2DB000C8E76C /* JSONDecoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoders.swift; sourceTree = "<group>"; };
+		4B329750294FE36900FF3BCA /* StocksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewModel.swift; sourceTree = "<group>"; };
+		4B329752294FE3AC00FF3BCA /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
 		4BA789FB2838865800A753A8 /* FinanceStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA789FE2838865800A753A8 /* FinanceStocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStocksApp.swift; sourceTree = "<group>"; };
 		4BA78A002838865800A753A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,14 @@
 			path = Requests;
 			sourceTree = "<group>";
 		};
+		4B32974F294FE35F00FF3BCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B329750294FE36900FF3BCA /* StocksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4BA789F22838865800A753A8 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +94,7 @@
 		4BA789FD2838865800A753A8 /* FinanceStocks */ = {
 			isa = PBXGroup;
 			children = (
+				4B32974F294FE35F00FF3BCA /* ViewModel */,
 				4B0851BF28BC2BB600C8E76C /* Requests */,
 				4BA78A0F2838882200A753A8 /* Helpers */,
 				4BA78A0C283886D300A753A8 /* Views */,
@@ -120,6 +133,7 @@
 			children = (
 				4BA78A102838883300A753A8 /* Extensions.swift */,
 				4B0851C228BC2DB000C8E76C /* JSONDecoders.swift */,
+				4B329752294FE3AC00FF3BCA /* StockModel.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -199,11 +213,13 @@
 				4BB0E51128544BBC00997313 /* LineChart.swift in Sources */,
 				4BA78A0E283886E500A753A8 /* HeaderView.swift in Sources */,
 				4BB0E5152854507900997313 /* StockCell.swift in Sources */,
+				4B329751294FE36900FF3BCA /* StocksViewModel.swift in Sources */,
 				4BA78A172838915600A753A8 /* WatchlistView.swift in Sources */,
 				4BB0E51328544FD700997313 /* SearchStockView.swift in Sources */,
 				4BA789FF2838865800A753A8 /* FinanceStocksApp.swift in Sources */,
 				4BA78A152838912E00A753A8 /* StockCard.swift in Sources */,
 				4B0851C328BC2DB000C8E76C /* JSONDecoders.swift in Sources */,
+				4B329753294FE3AC00FF3BCA /* StockModel.swift in Sources */,
 				4BB0E50F28544B7A00997313 /* StockMockData.swift in Sources */,
 				4B0851C128BC2BF100C8E76C /* APIRequest.swift in Sources */,
 				4BA78A112838883300A753A8 /* Extensions.swift in Sources */,
